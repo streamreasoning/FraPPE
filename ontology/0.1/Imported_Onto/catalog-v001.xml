@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1418400331711" name="http://purl.org/NET/c4dm/event.owl" uri="event.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1418400331711" name="http://streamreasoning.org/ont/fr" uri="frappe.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1418400331711" name="http://www.wurvoc.org/vocabularies/om-1.6/" uri="om-1.6.rdf"/>
+    </group>
+</catalog>
