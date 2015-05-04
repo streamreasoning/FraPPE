@@ -1,0 +1,22 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix owl: <ttp://www.w3.org/2002/07/owl#> . 
+
+<http://131.175.59.106:3030/debs2015/query> rdf:type void:Dataset ;
+ foaf:homepage <http://streamreasoning.org/datasets/debs2015> ;
+ dcterms:title "publishing debs2015 dataset using FraPPE" ;
+ dcterms:description "debs 2015 dataset contains the data made available by the ACM DEBS 2015 Grand Challenge and modeled using FraPPE vocabulary" ;
+ dcterms:publisher <http://www.polimi.it> ;
+ dcterms:source <https://drive.google.com/file/d/0B0TBL8JNn3JgTGNJTEJaQmFMbk0/view?usp=sharing> ;
+ dcterms:license <http://opendefinition.org/licenses/cc-by-sa/> ;
+ void:sparqlEndpoint <http://131.175.59.106:3030/debs2015/query> ;
+ void:dataDump <http://streamreasoning.org/datasets/debs2015/debs2015.rdf> ;
+ void:vocabulary <http://lov.okfn.org/dataset/lov/vocabs/frappe> .
+
+<http://www.polimi.it> rdf:type foaf:Organization ; 
+ foaf:name "Politecnico di Milano" ;
+ foaf:homepage <http://www.polimi.it> ; 
+ owl:sameAs <http://it.dbpedia.org/page/Politecnico_di_Milano> .
