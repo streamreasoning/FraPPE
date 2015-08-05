@@ -12,7 +12,7 @@
  dcterms:publisher <http://www.polimi.it> ;
  dcterms:source <https://drive.google.com/file/d/0B0TBL8JNn3JgTGNJTEJaQmFMbk0/view?usp=sharing> ;
  dcterms:license <http://opendefinition.org/licenses/cc-by-sa/> ;
- void:sparqlEndpoint <http://131.175.59.106:3030/debs2015/query> ;
+ void:sparqlEndpoint <http://www.streamreasoning.com/datasets/debs2015/> ;
  void:dataDump <http://streamreasoning.org/datasets/debs2015/debs2015.rdf> ;
  void:vocabulary <http://lov.okfn.org/dataset/lov/vocabs/frappe> .
 
